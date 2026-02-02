@@ -1,0 +1,240 @@
+body {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hidden { 
+    display: none; 
+}
+
+#icon-container {
+    display: flex;
+    justify-content:space-around;
+}
+
+#icon-container div {
+    width: 300px;
+} 
+
+#orange :hover { 
+    opacity: 100%;
+    animation: 0.5s ease-in-out forwards opacity, 
+    0.2s linear 1s 2 backwards size;
+    fill: black;
+    
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 100;
+        fill: black;
+    }
+    50% {
+        opacity: 0;
+        fill: goldenrod;
+    }
+    100% {
+        opacity: 100;
+        fill: orange;
+    }
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1,1);
+    }
+    50% { 
+        transform: scale(0.9, 0.9);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+#avocado :hover { 
+    opacity: 100%;
+    animation: 0.5s ease-in-out forwards opacity, 
+    0.2s linear 1s 2 backwards size;
+    fill: black;
+    
+}
+
+
+@keyframes opacity {
+    0% {
+        opacity: 100;
+        fill: black;
+    }
+    50% {
+        opacity: 0;
+        fill: rgb(158, 87, 161);
+    }
+    100% {
+        opacity: 100;
+        fill: rgb(188, 62, 161);
+    }
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1,1);
+    }
+    50% { 
+        transform: scale(0.9, 0.9);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+#orange-slice :hover { 
+    opacity: 100%;
+    animation: 0.5s ease-in-out forwards opacity, 
+    0.2s linear 1s 2 backwards size;
+    fill: black;
+    
+}
+
+
+@keyframes opacity {
+    0% {
+        opacity: 100;
+        fill: black;
+    }
+    50% {
+        opacity: 0;
+        fill: rgb(158, 87, 161);
+    }
+    100% {
+        opacity: 100;
+        fill: rgb(188, 62, 161);
+    }
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1,1);
+    }
+    50% { 
+        transform: scale(0.9, 0.9);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+#walnut :hover { 
+    opacity: 100%;
+    animation: 0.5s ease-in-out forwards opacity, 
+    0.2s linear 1s 2 backwards size;
+    fill: black;
+    
+}
+
+
+@keyframes opacity {
+    0% {
+        opacity: 100;
+        fill: black;
+    }
+    50% {
+        opacity: 0;
+        fill: rgb(158, 87, 161);
+    }
+    100% {
+        opacity: 100;
+        fill: rgb(188, 62, 161);
+    }
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1,1);
+    }
+    50% { 
+        transform: scale(0.9, 0.9);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+#carrot :hover { 
+    opacity: 100%;
+    animation: 0.5s ease-in-out forwards opacity, 
+    0.2s linear 1s 2 backwards size;
+    fill: black;
+    
+}
+
+
+@keyframes opacity {
+    0% {
+        opacity: 100;
+        fill: black;
+    }
+    50% {
+        opacity: 0;
+        fill: rgb(158, 87, 161);
+    }
+    100% {
+        opacity: 100;
+        fill: rgb(188, 62, 161);
+    }
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1,1);
+    }
+    50% { 
+        transform: scale(0.9, 0.9);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+#cherry :hover { 
+    opacity: 100%;
+    animation: 0.5s ease-in-out forwards opacity, 
+    0.2s linear 1s 2 backwards size;
+    fill: black;
+    
+}
+
+
+@keyframes opacity {
+    0% {
+        opacity: 100;
+        fill: black;
+    }
+    50% {
+        opacity: 0;
+        fill: rgb(158, 87, 161);
+    }
+    100% {
+        opacity: 100;
+        fill: rgb(188, 62, 161);
+    }
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1,1);
+    }
+    50% { 
+        transform: scale(0.9, 0.9);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+
+
+
